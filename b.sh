@@ -17,7 +17,7 @@ function count_load () {
    echo $line >> $SATEMP
   fi
   } 
-  done < $SAFILE
+  done << $SAFILE
 }
 
 
